@@ -1,0 +1,4 @@
+Flask==2.1.2
+black==21.9b0
+Werkzeug==2.0.2
+MarkupSafe==2.1.1
