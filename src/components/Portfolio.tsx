@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Sidebar } from './Sidebar';
+import { HorizontalNavbar } from './HorizontalNavbar';
 import { AboutSection } from './AboutSection';
 import { ResumeSection } from './ResumeSection';
 import { ProjectsSection } from './ProjectsSection';
@@ -8,10 +8,10 @@ import { MiscSection } from './MiscSection';
 
 const Portfolio = () => {
   return (
-    <div className="flex min-h-screen bg-cream-50">
-      <Sidebar />
-      <main className="flex-1 ml-64">
-        <div className="max-w-4xl mx-auto py-8 px-6">
+    <div className="min-h-screen bg-cream-50">
+      <HorizontalNavbar />
+      <main className="pt-20">
+        <div className="max-w-6xl mx-auto py-8 px-6">
           <AboutSection />
           <ResumeSection />
           <ProjectsSection />

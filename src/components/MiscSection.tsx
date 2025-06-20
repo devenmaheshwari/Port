@@ -2,66 +2,102 @@
 import React from 'react';
 
 const MiscSection = () => {
+  const interests = [
+    { name: "Open Source Contributions", color: "from-blue-500 to-cyan-500", bgColor: "bg-blue-50" },
+    { name: "Competitive Programming", color: "from-green-500 to-emerald-500", bgColor: "bg-green-50" },
+    { name: "Tech Meetups & Conferences", color: "from-purple-500 to-violet-500", bgColor: "bg-purple-50" },
+    { name: "Reading Tech Blogs", color: "from-red-500 to-pink-500", bgColor: "bg-red-50" },
+    { name: "AI & Machine Learning", color: "from-indigo-500 to-blue-500", bgColor: "bg-indigo-50" },
+    { name: "Web Development", color: "from-orange-500 to-yellow-500", bgColor: "bg-orange-50" }
+  ];
+
+  const achievements = [
+    { 
+      title: "Dean's List", 
+      description: "Achieved Dean's List recognition for academic excellence",
+      color: "from-yellow-500 to-orange-500", 
+      bgColor: "bg-yellow-50",
+      year: "2023"
+    },
+    { 
+      title: "Hackathon Winner", 
+      description: "1st place at University Tech Hackathon",
+      color: "from-orange-500 to-red-500", 
+      bgColor: "bg-orange-50",
+      year: "2023"
+    },
+    { 
+      title: "Programming Contest", 
+      description: "Top 10 finish in Regional Programming Contest",
+      color: "from-pink-500 to-purple-500", 
+      bgColor: "bg-pink-50",
+      year: "2024"
+    },
+    { 
+      title: "Open Source Contributor", 
+      description: "Active contributor to multiple open source projects",
+      color: "from-green-500 to-teal-500", 
+      bgColor: "bg-green-50",
+      year: "2024"
+    }
+  ];
+
   return (
-    <section id="misc" className="mb-16 scroll-mt-8">
+    <section id="misc" className="mb-16 scroll-mt-24">
       <div className="bg-white rounded-lg shadow-sm p-8 border border-cream-200">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Miscellaneous</h2>
         
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Interests & Hobbies</h3>
-            <ul className="space-y-2 text-gray-700">
-              <li className="flex items-center space-x-2">
-                <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                <span>Open Source Contributions</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <span className="w-2 h-2 bg-green-500 rounded-full"></span>
-                <span>Competitive Programming</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <span className="w-2 h-2 bg-purple-500 rounded-full"></span>
-                <span>Tech Meetups & Conferences</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <span className="w-2 h-2 bg-red-500 rounded-full"></span>
-                <span>Reading Tech Blogs</span>
-              </li>
-            </ul>
+            <h3 className="text-xl font-semibold text-gray-800 mb-6">Interests & Hobbies</h3>
+            <div className="grid grid-cols-1 gap-4">
+              {interests.map((interest, index) => (
+                <div key={index} className={`${interest.bgColor} border-2 border-opacity-20 rounded-lg p-4 hover:shadow-md transition-all duration-300 hover:scale-105`}>
+                  <div className="flex items-center space-x-3">
+                    <div className={`w-3 h-3 bg-gradient-to-r ${interest.color} rounded-full`}></div>
+                    <span className="font-medium text-gray-800">{interest.name}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
           
           <div>
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">Achievements</h3>
-            <ul className="space-y-2 text-gray-700">
-              <li className="flex items-center space-x-2">
-                <span className="w-2 h-2 bg-yellow-500 rounded-full"></span>
-                <span>Dean's List (Semester/Year)</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <span className="w-2 h-2 bg-orange-500 rounded-full"></span>
-                <span>Hackathon Participant</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <span className="w-2 h-2 bg-pink-500 rounded-full"></span>
-                <span>Programming Contest Awards</span>
-              </li>
-            </ul>
+            <h3 className="text-xl font-semibold text-gray-800 mb-6">Achievements</h3>
+            <div className="space-y-4">
+              {achievements.map((achievement, index) => (
+                <div key={index} className={`${achievement.bgColor} border-2 border-opacity-20 rounded-lg p-4 hover:shadow-md transition-all duration-300 hover:scale-105`}>
+                  <div className="flex items-start justify-between mb-2">
+                    <div className="flex items-center space-x-3">
+                      <div className={`w-3 h-3 bg-gradient-to-r ${achievement.color} rounded-full flex-shrink-0 mt-1`}></div>
+                      <div>
+                        <h4 className="font-semibold text-gray-800">{achievement.title}</h4>
+                        <p className="text-sm text-gray-600">{achievement.description}</p>
+                      </div>
+                    </div>
+                    <span className="text-xs text-gray-500 bg-white px-2 py-1 rounded-full">
+                      {achievement.year}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
         
-        <div className="mt-8 pt-6 border-t border-cream-200">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">Get In Touch</h3>
+        <div className="pt-6 border-t border-cream-200">
+          <h3 className="text-xl font-semibold text-gray-800 mb-6">Get In Touch</h3>
           <div className="flex flex-wrap gap-4">
             <a href="mailto:your.email@example.com" 
-               className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-200">
+               className="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 transform hover:scale-105 shadow-md">
               Email Me
             </a>
             <a href="https://linkedin.com/in/yourprofile" 
-               className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors duration-200">
+               className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:scale-105 shadow-md">
               LinkedIn
             </a>
             <a href="https://github.com/yourusername" 
-               className="px-4 py-2 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors duration-200">
+               className="px-6 py-3 bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-lg hover:from-gray-900 hover:to-black transition-all duration-200 transform hover:scale-105 shadow-md">
               GitHub
             </a>
           </div>
