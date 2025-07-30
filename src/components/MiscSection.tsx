@@ -2,39 +2,39 @@
 import React from 'react';
 
 const MiscSection = () => {
-  const interests = [
-    { name: "Open Source Contributions", color: "from-blue-500 to-cyan-500", bgColor: "bg-blue-50" },
-    { name: "Competitive Programming", color: "from-green-500 to-emerald-500", bgColor: "bg-green-50" },
-    { name: "Tech Meetups & Conferences", color: "from-purple-500 to-violet-500", bgColor: "bg-purple-50" },
-    { name: "Reading Tech Blogs", color: "from-red-500 to-pink-500", bgColor: "bg-red-50" },
-    { name: "AI & Machine Learning", color: "from-indigo-500 to-blue-500", bgColor: "bg-indigo-50" },
-    { name: "Web Development", color: "from-orange-500 to-yellow-500", bgColor: "bg-orange-50" }
+  const hobbies = [
+    { name: "UW D1 Basketball Scout Team", color: "from-blue-500 to-cyan-500", bgColor: "bg-blue-50" },
+    { name: "Guitar and Double Bass", color: "from-green-500 to-emerald-500", bgColor: "bg-green-50" },
+    { name: "Surfing", color: "from-purple-500 to-violet-500", bgColor: "bg-purple-50" },
+    { name: "Nature-Integrated Computing", color: "from-red-500 to-pink-500", bgColor: "bg-red-50" },
+    { name: "AI, ML, LLMs, Computer Vision, Quantum Computing", color: "from-indigo-500 to-blue-500", bgColor: "bg-indigo-50" },
+    { name: "Cooking", color: "from-orange-500 to-yellow-500", bgColor: "bg-orange-50" }
   ];
 
   const achievements = [
     { 
-      title: "Dean's List", 
+      title: "Phi Beta Kappa", 
       description: "Achieved Dean's List recognition for academic excellence",
       color: "from-yellow-500 to-orange-500", 
       bgColor: "bg-yellow-50",
       year: "2023"
     },
     { 
-      title: "Hackathon Winner", 
+      title: "National Merit Scholarship Finalist", 
       description: "1st place at University Tech Hackathon",
       color: "from-orange-500 to-red-500", 
       bgColor: "bg-orange-50",
       year: "2023"
     },
     { 
-      title: "Programming Contest", 
+      title: "Eagle Scout", 
       description: "Top 10 finish in Regional Programming Contest",
       color: "from-pink-500 to-purple-500", 
       bgColor: "bg-pink-50",
       year: "2024"
     },
     { 
-      title: "Open Source Contributor", 
+      title: "Honors Achievement Award", 
       description: "Active contributor to multiple open source projects",
       color: "from-green-500 to-teal-500", 
       bgColor: "bg-green-50",
@@ -51,7 +51,7 @@ const MiscSection = () => {
           <div>
             <h3 className="text-xl font-semibold text-gray-800 mb-6">Interests & Hobbies</h3>
             <div className="grid grid-cols-1 gap-4">
-              {interests.map((interest, index) => (
+              {hobbies.map((interest, index) => (
                 <div key={index} className={`${interest.bgColor} border-2 border-opacity-20 rounded-lg p-4 hover:shadow-md transition-all duration-300 hover:scale-105`}>
                   <div className="flex items-center space-x-3">
                     <div className={`w-3 h-3 bg-gradient-to-r ${interest.color} rounded-full`}></div>

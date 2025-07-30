@@ -13,21 +13,25 @@ const ResumeSection = () => {
             <div className="space-y-4">
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-gray-800">Bachelor of Science in Computer Science</h4>
-                <p className="text-gray-600">University Name</p>
-                <p className="text-sm text-gray-500">Expected Graduation: Year</p>
-                <p className="text-sm text-gray-600 mt-1">GPA: X.XX/4.0</p>
+                <p className="text-gray-600">University of Washington</p>
+                <p className="text-sm text-gray-500">Expected Graduation: Dec--June 2026</p>
+                <p className="text-sm text-gray-600 mt-1">GPA: 3.84/4.0</p>
               </div>
             </div>
             
             <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Experience</h3>
             <div className="space-y-4">
               <div className="border-l-4 border-green-500 pl-4">
-                <h4 className="font-semibold text-gray-800">Internship/Part-time Position</h4>
-                <p className="text-gray-600">Company Name</p>
-                <p className="text-sm text-gray-500">Duration</p>
+                <h4 className="font-semibold text-gray-800">AI Engineering Internship</h4>
+                <p className="text-gray-600">Rodeo</p>
+                <p className="text-sm text-gray-500">June 2025 -- Present</p>
                 <ul className="text-sm text-gray-600 mt-1 list-disc list-inside">
-                  <li>Key responsibility or achievement</li>
-                  <li>Another important contribution</li>
+                  <li>Helping develop Rodeo, an AI social-personal assistant able to manage your social calendar
+                  </li>
+                  <li>Leveraging Claude Opus 4.0-backed LLMs to dynamically adjust to someone's social preferences. Created the ResyV2 tool, able to provide info & reservations
+                    for 100+ NYC restaurants
+                  
+                  </li>
                 </ul>
               </div>
             </div>
@@ -50,7 +54,7 @@ const ResumeSection = () => {
               <div>
                 <h4 className="font-medium text-gray-800 mb-2">Frameworks & Tools</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['React', 'Node.js', 'Git', 'MySQL', 'MongoDB'].map((skill) => (
+                  {['Flask', 'Node.js', 'SQL', 'Heroku', 'Redis', 'AWS'].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">
                       {skill}
                     </span>
@@ -61,7 +65,7 @@ const ResumeSection = () => {
               <div>
                 <h4 className="font-medium text-gray-800 mb-2">Concepts</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['Data Structures', 'Algorithms', 'OOP', 'Database Design'].map((skill) => (
+                  {['Data Structures/Algorithms', 'Quantum Computing', 'Artificial Intelligence', 'Autonomous Robotics'].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">
                       {skill}
                     </span>

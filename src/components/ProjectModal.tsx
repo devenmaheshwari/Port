@@ -4,6 +4,7 @@ import { X } from 'lucide-react';
 
 interface Project {
   title: string;
+  date: string;
   description: string;
   technologies: string[];
   status: string;

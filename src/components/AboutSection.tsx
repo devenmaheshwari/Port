@@ -9,24 +9,27 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
             <p className="text-gray-700 leading-relaxed mb-4">
-              Hello! I'm a passionate computer science undergraduate with a deep interest in 
-              software development and problem-solving. Currently pursuing my degree, I'm 
-              constantly learning new technologies and working on exciting projects.
+              Hi, my name's Deven Maheshwari. I'm a senior at the University of Washington
+              where I study computer science and environmental studies. I'm excited about 
+              building sustainable technology and learning about quantam and machine learning 
+              advancements. I'm from New York originally and I love playing basketball. Feel 
+              free to reach out at devenm@uw.edu. 
+              
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
-              My journey in computer science has been driven by curiosity and a desire to 
-              create meaningful solutions. I enjoy working on both front-end and back-end 
-              development, and I'm always eager to take on new challenges.
+              
             </p>
             <p className="text-gray-700 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing 
-              to open source projects, or working on personal projects that challenge my 
-              skills and creativity.
+               
             </p>
           </div>
           <div className="flex justify-center">
-            <div className="w-48 h-48 bg-cream-200 rounded-full flex items-center justify-center">
-              <span className="text-gray-500 text-sm">Your Photo Here</span>
+            <div className="w-48 h-48 bg-cream-200 rounded-full overflow-hidden">
+              <img
+                src="src/pro.JPG"
+                alt="Profile"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

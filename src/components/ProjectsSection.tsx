@@ -8,8 +8,8 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack web application for online shopping",
+      title: "Rodeo",
+      description: "AI Engineering Internship; Summer 2025 -- Present",
       technologies: ["React", "Node.js", "MongoDB"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
@@ -30,8 +30,8 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/yourusername/ecommerce"
     },
     {
-      title: "Task Management App",
-      description: "Mobile-first task tracking application",
+      title: "Neurophys",
+      description: "Founding Engineer; Summer 2024 - Present",
       technologies: ["React Native", "Firebase", "Redux"],
       status: "In Progress",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
@@ -50,8 +50,8 @@ const ProjectsSection = () => {
       githubUrl: "https://github.com/yourusername/taskapp"
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather monitoring system",
+      title: "Computer Science 4 Environment Lab",
+      description: "Undergraduate Research; Winter 2025 - Summer 2025",
       technologies: ["Python", "Flask", "Chart.js"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
@@ -70,8 +70,8 @@ const ProjectsSection = () => {
       liveUrl: "https://weather-dashboard.example.com"
     },
     {
-      title: "Social Media Analytics",
-      description: "Analytics dashboard for social media insights",
+      title: "Big Hero 7: A Physical Therapy Stretch Robot",
+      description: "Robotcs Capstone; Spring 2025",
       technologies: ["Vue.js", "D3.js", "Express"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
@@ -89,8 +89,8 @@ const ProjectsSection = () => {
       ]
     },
     {
-      title: "Learning Management System",
-      description: "Educational platform for online courses",
+      title: "Trew Media",
+      description: "Software Engineering Internship; Summer 2024",
       technologies: ["Angular", "Spring Boot", "PostgreSQL"],
       status: "In Progress",
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop",
@@ -108,46 +108,8 @@ const ProjectsSection = () => {
       ]
     },
     {
-      title: "Inventory Management",
-      description: "Supply chain management solution",
-      technologies: ["Django", "React", "Redis"],
-      status: "Completed",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=250&fit=crop",
-      fullDescription: "A robust inventory management system for small to medium businesses to track products, manage suppliers, and optimize stock levels.",
-      features: [
-        "Real-time inventory tracking",
-        "Supplier management",
-        "Automated reorder notifications",
-        "Sales and inventory reports"
-      ],
-      challenges: [
-        "Implementing real-time updates across users",
-        "Optimizing for high-volume transactions",
-        "Creating intuitive reporting interfaces"
-      ]
-    },
-    {
-      title: "Chat Application",
-      description: "Real-time messaging platform",
-      technologies: ["Socket.io", "React", "Node.js"],
-      status: "Completed",
-      image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&h=250&fit=crop",
-      fullDescription: "A real-time chat application with support for group conversations, file sharing, and message encryption.",
-      features: [
-        "Real-time messaging with Socket.io",
-        "Group chat functionality",
-        "File and image sharing",
-        "Message encryption and security"
-      ],
-      challenges: [
-        "Implementing end-to-end encryption",
-        "Optimizing real-time performance",
-        "Managing connection stability"
-      ]
-    },
-    {
-      title: "Portfolio Website",
-      description: "Personal portfolio and blog platform",
+      title: "Microsoft University Shadowship",
+      description: "Paired with Senior Microsoft Engineer; Spring 2024",
       technologies: ["Next.js", "Tailwind CSS", "Vercel"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=250&fit=crop",
@@ -166,8 +128,46 @@ const ProjectsSection = () => {
       liveUrl: "https://yourportfolio.com"
     },
     {
-      title: "Data Visualization Tool",
-      description: "Interactive data analysis platform",
+      title: "Oceans Ventures",
+      description: "AI/ML Scout; 2023 - 2024",
+      technologies: ["Django", "React", "Redis"],
+      status: "Completed",
+      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=250&fit=crop",
+      fullDescription: "A robust inventory management system for small to medium businesses to track products, manage suppliers, and optimize stock levels.",
+      features: [
+        "Real-time inventory tracking",
+        "Supplier management",
+        "Automated reorder notifications",
+        "Sales and inventory reports"
+      ],
+      challenges: [
+        "Implementing real-time updates across users",
+        "Optimizing for high-volume transactions",
+        "Creating intuitive reporting interfaces"
+      ]
+    },
+    {
+      title: "Applied Physics Laboratory",
+      description: "Student Researcher; Summer 2023",
+      technologies: ["Socket.io", "React", "Node.js"],
+      status: "Completed",
+      image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&h=250&fit=crop",
+      fullDescription: "A real-time chat application with support for group conversations, file sharing, and message encryption.",
+      features: [
+        "Real-time messaging with Socket.io",
+        "Group chat functionality",
+        "File and image sharing",
+        "Message encryption and security"
+      ],
+      challenges: [
+        "Implementing end-to-end encryption",
+        "Optimizing real-time performance",
+        "Managing connection stability"
+      ]
+    },
+    {
+      title: "Ocean Data Lab @ UW Oceanography",
+      description: "Undergraduate Research Assistant; 2022-2023",
       technologies: ["Python", "Streamlit", "Pandas"],
       status: "In Progress",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
@@ -185,8 +185,8 @@ const ProjectsSection = () => {
       ]
     },
     {
-      title: "API Gateway Service",
-      description: "Microservices API management platform",
+      title: "J.P. Morgan Chase",
+      description: "Investment Banking Summer Analyst Intern; Summer 2022",
       technologies: ["Go", "Docker", "Kubernetes"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop",
@@ -204,8 +204,8 @@ const ProjectsSection = () => {
       ]
     },
     {
-      title: "Machine Learning Pipeline",
-      description: "Automated ML model training system",
+      title: "Google Mentorship Program",
+      description: "AI Exercise Feedback -- Winter 2022 to Spring 2022",
       technologies: ["Python", "TensorFlow", "Docker"],
       status: "In Progress",
       image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop",
@@ -223,8 +223,8 @@ const ProjectsSection = () => {
       ]
     },
     {
-      title: "Blockchain Voting System",
-      description: "Secure voting platform using blockchain",
+      title: "MIT Lincoln Laboratory",
+      description: "Beaverworks Summer Institute (MIT BWSI); Summer 2021",
       technologies: ["Solidity", "Web3.js", "Ethereum"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=250&fit=crop",
