@@ -10,8 +10,8 @@ const ProjectsSection = () => {
     {
       title: "Rodeo",
       description: "AI Engineering Internship; Summer 2025 -- Present",
-      technologies: ["React", "Node.js", "MongoDB"],
-      status: "Completed",
+      technologies: ["Vercel", "Node.js", "Prisma", "Heroku", "Typescript", "Firebase"],
+      status: "In Progress",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
       fullDescription: "A comprehensive e-commerce platform built from scratch with user authentication, product management, shopping cart functionality, and payment integration. The application features a modern, responsive design and includes both customer and admin interfaces.",
       features: [
@@ -32,7 +32,7 @@ const ProjectsSection = () => {
     {
       title: "Neurophys",
       description: "Founding Engineer; Summer 2024 - Present",
-      technologies: ["React Native", "Firebase", "Redux"],
+      technologies: ["React Native", "Computer Vision", "Google API", "CI/CD", "K-means Clustering", "TensorFlow"],
       status: "In Progress",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
       fullDescription: "A mobile-first task management application that helps users organize their daily activities, set priorities, and track progress. Built with React Native for cross-platform compatibility.",
@@ -52,7 +52,7 @@ const ProjectsSection = () => {
     {
       title: "Computer Science 4 Environment Lab",
       description: "Undergraduate Research; Winter 2025 - Summer 2025",
-      technologies: ["Python", "Flask", "Chart.js"],
+      technologies: ["Python", "Firmware", "Biophotovalic Cells"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
       fullDescription: "A comprehensive weather dashboard that aggregates data from multiple APIs to provide detailed weather information, forecasts, and historical data visualization.",
@@ -72,7 +72,7 @@ const ProjectsSection = () => {
     {
       title: "Big Hero 7: A Physical Therapy Stretch Robot",
       description: "Robotcs Capstone; Spring 2025",
-      technologies: ["Vue.js", "D3.js", "Express"],
+      technologies: ["ROS2", "Python", "Remote Sensing"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
       fullDescription: "An analytics platform that provides insights into social media performance across multiple platforms with interactive visualizations and automated reporting.",
@@ -91,8 +91,8 @@ const ProjectsSection = () => {
     {
       title: "Trew Media",
       description: "Software Engineering Internship; Summer 2024",
-      technologies: ["Angular", "Spring Boot", "PostgreSQL"],
-      status: "In Progress",
+      technologies: ["Python", "REST APIs", "GPUs", "Docker"],
+      status: "Completed",
       image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop",
       fullDescription: "A comprehensive learning management system designed for educational institutions to manage courses, students, and assessments online.",
       features: [
@@ -110,7 +110,7 @@ const ProjectsSection = () => {
     {
       title: "Microsoft University Shadowship",
       description: "Paired with Senior Microsoft Engineer; Spring 2024",
-      technologies: ["Next.js", "Tailwind CSS", "Vercel"],
+      technologies: ["Python", "Java"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=250&fit=crop",
       fullDescription: "A modern, responsive portfolio website showcasing projects and technical blog posts with optimized performance and SEO.",
@@ -130,7 +130,7 @@ const ProjectsSection = () => {
     {
       title: "Oceans Ventures",
       description: "AI/ML Scout; 2023 - 2024",
-      technologies: ["Django", "React", "Redis"],
+      technologies: ["Python", "AI/ML", "Finance", "Data Analysis"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=250&fit=crop",
       fullDescription: "A robust inventory management system for small to medium businesses to track products, manage suppliers, and optimize stock levels.",
@@ -149,7 +149,7 @@ const ProjectsSection = () => {
     {
       title: "Applied Physics Laboratory",
       description: "Student Researcher; Summer 2023",
-      technologies: ["Socket.io", "React", "Node.js"],
+      technologies: ["Python", "Pandas", "Computer Vision", "Autonomous Navigation", "Sensors"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&h=250&fit=crop",
       fullDescription: "A real-time chat application with support for group conversations, file sharing, and message encryption.",
@@ -168,8 +168,8 @@ const ProjectsSection = () => {
     {
       title: "Ocean Data Lab @ UW Oceanography",
       description: "Undergraduate Research Assistant; 2022-2023",
-      technologies: ["Python", "Streamlit", "Pandas"],
-      status: "In Progress",
+      technologies: ["Python", "Video/Audio Processing", "Power Spectral Density (PSD) Analysis"],
+      status: "Completed",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
       fullDescription: "A powerful data visualization tool that allows users to upload datasets and create interactive charts and dashboards without coding.",
       features: [
@@ -187,7 +187,7 @@ const ProjectsSection = () => {
     {
       title: "J.P. Morgan Chase",
       description: "Investment Banking Summer Analyst Intern; Summer 2022",
-      technologies: ["Go", "Docker", "Kubernetes"],
+      technologies: ["SQL", "Finance", "Data Visualization"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop",
       fullDescription: "A scalable API gateway service for managing microservices architecture with load balancing, authentication, and monitoring capabilities.",
@@ -206,8 +206,8 @@ const ProjectsSection = () => {
     {
       title: "Google Mentorship Program",
       description: "AI Exercise Feedback -- Winter 2022 to Spring 2022",
-      technologies: ["Python", "TensorFlow", "Docker"],
-      status: "In Progress",
+      technologies: ["Python", "TensorFlow", "APIs"],
+      status: "Completed",
       image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop",
       fullDescription: "An automated machine learning pipeline that streamlines the process of data preprocessing, model training, and deployment.",
       features: [
@@ -225,7 +225,7 @@ const ProjectsSection = () => {
     {
       title: "MIT Lincoln Laboratory",
       description: "Beaverworks Summer Institute (MIT BWSI); Summer 2021",
-      technologies: ["Solidity", "Web3.js", "Ethereum"],
+      technologies: ["Remote Sensing", "Radar Image Processing", "Python", "Automation"],
       status: "Completed",
       image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=250&fit=crop",
       fullDescription: "A secure, transparent voting system built on blockchain technology to ensure election integrity and voter privacy.",
