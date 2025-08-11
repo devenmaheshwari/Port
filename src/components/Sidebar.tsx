@@ -20,8 +20,8 @@ const Sidebar = () => {
   return (
     <aside className="fixed left-0 top-0 h-full w-64 bg-white shadow-lg border-r border-cream-200">
       <div className="p-6">
-        <h1 className="text-2xl font-bold text-gray-800 mb-2">Your Name</h1>
-        <p className="text-gray-600 text-sm mb-8">Computer Science Student</p>
+        <h1 className="text-2xl font-bold text-gray-800 mb-2">Deven Maheshwari</h1>
+        <p className="text-gray-600 text-sm mb-8">Computer Science & Sustainability</p>
         
         <nav>
           <ul className="space-y-2">

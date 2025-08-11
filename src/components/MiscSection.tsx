@@ -14,32 +14,32 @@ const MiscSection = () => {
   const achievements = [
     { 
       title: "Phi Beta Kappa", 
-      description: "Achieved Dean's List recognition for academic excellence",
+      description: "Inducted into the prestigious Phi Beta Kappa honor society (top 6% of college upperclassmen)",
       color: "from-yellow-500 to-orange-500", 
       bgColor: "bg-yellow-50",
+      year: "2025"
+    },
+    { 
+      title: "Honors Achievement Award", 
+      description: "Awarded to an incoming UW student for outstanding academic achievement. $40,000 scholarship",
+      color: "from-green-500 to-teal-500", 
+      bgColor: "bg-green-50",
       year: "2023"
     },
     { 
       title: "National Merit Scholarship Finalist", 
-      description: "1st place at University Tech Hackathon",
+      description: "",
       color: "from-orange-500 to-red-500", 
       bgColor: "bg-orange-50",
-      year: "2023"
+      year: "2022"
     },
     { 
       title: "Eagle Scout", 
-      description: "Top 10 finish in Regional Programming Contest",
+      description: "Led a two-day restoration and erosion mitigation project in Riverside Park, NYC",
       color: "from-pink-500 to-purple-500", 
       bgColor: "bg-pink-50",
-      year: "2024"
+      year: "2022"
     },
-    { 
-      title: "Honors Achievement Award", 
-      description: "Active contributor to multiple open source projects",
-      color: "from-green-500 to-teal-500", 
-      bgColor: "bg-green-50",
-      year: "2024"
-    }
   ];
 
   return (

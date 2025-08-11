@@ -14,24 +14,19 @@ const ResumeSection = () => {
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-gray-800">Bachelor of Science in Computer Science</h4>
                 <p className="text-gray-600">University of Washington</p>
-                <p className="text-sm text-gray-500">Expected Graduation: Dec--June 2026</p>
+                <p className="text-sm text-gray-500">Expected Graduation: Dec 2025--June 2026</p>
                 <p className="text-sm text-gray-600 mt-1">GPA: 3.84/4.0</p>
               </div>
             </div>
             
-            <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Experience</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 mt-8">Current Role</h3>
             <div className="space-y-4">
               <div className="border-l-4 border-green-500 pl-4">
-                <h4 className="font-semibold text-gray-800">AI Engineering Internship</h4>
+                <h4 className="font-semibold text-gray-800">AI Engineering Intern</h4>
                 <p className="text-gray-600">Rodeo</p>
                 <p className="text-sm text-gray-500">June 2025 -- Present</p>
                 <ul className="text-sm text-gray-600 mt-1 list-disc list-inside">
-                  <li>Helping develop Rodeo, an AI social-personal assistant able to manage your social calendar
-                  </li>
-                  <li>Leveraging Claude Opus 4.0-backed LLMs to dynamically adjust to someone's social preferences. Created the ResyV2 tool, able to provide info & reservations
-                    for 100+ NYC restaurants
-                  
-                  </li>
+                  Building Rodeo, an AI assistant able to manage your social calendar
                 </ul>
               </div>
             </div>

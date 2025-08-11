@@ -22,8 +22,8 @@ const HorizontalNavbar = () => {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-gray-800">Your Name</h1>
-            <p className="text-gray-600 text-sm">Computer Science Student</p>
+            <h1 className="text-2xl font-bold text-gray-800">Deven Maheshwari</h1>
+            <p className="text-gray-600 text-sm">Computer Science & Sustainability</p>
           </div>
           
           <div className="flex space-x-8">
