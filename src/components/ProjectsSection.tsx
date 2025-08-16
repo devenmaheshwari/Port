@@ -9,43 +9,43 @@ const ProjectsSection = () => {
   const projects = [
     {
       title: "Rodeo",
-      description: "AI Engineering Internship; Summer 2025 -- Present",
-      technologies: ["Vercel", "Node.js", "Prisma", "Heroku", "Typescript", "Firebase"],
+      description: "AI Engineering Intern; June 2025 – Present",
+      technologies: ["Vercel", "Node.js", "Prisma", "Heroku", "Typescript", "GraphQL"],
       status: "In Progress",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop",
-      fullDescription: "A comprehensive e-commerce platform built from scratch with user authentication, product management, shopping cart functionality, and payment integration. The application features a modern, responsive design and includes both customer and admin interfaces.",
+      image: "/src/components/imgs/rodeo.png",
+      fullDescription: "Building and integrating a suite of AI tools – including calendar analysis, user intention classification, and retrieval augmented generation – to deliver personalized recommendations for social connections with less than 10% error rate. Developing AI agents using Vercel and a backend powered by Node.js, Prisma ORM, GraphQL, and Heroku.",
       features: [
-        "User authentication and authorization",
-        "Product catalog with search and filtering",
-        "Shopping cart and checkout process",
-        "Order management system",
-        "Admin dashboard for inventory management"
+        "Calendar analysis and user intention classification",
+        "Retrieval augmented generation for personalized recommendations",
+        "AI agents development with Vercel backend",
+        "Advanced LLM infrastructure including tokenization and context management",
+        "Model context protocol (MCP) implementation"
       ],
       challenges: [
-        "Implementing secure payment processing",
-        "Optimizing database queries for large product catalogs",
-        "Creating responsive design across all device sizes"
+        "Achieving less than 10% error rate in recommendations",
+        "Diagnosing model issues using unit testing and log tracing",
+        "Streamlining deployment workflows for user feedback"
       ],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/yourusername/ecommerce"
     },
     {
       title: "Neurophys",
-      description: "Founding Engineer; Summer 2024 - Present",
-      technologies: ["React Native", "Computer Vision", "Google API", "CI/CD", "K-means Clustering", "TensorFlow"],
+      description: "Founding Member, Software Engineer 1; AI-based Physical Therapy for Neurological Disorders -- August 2024 – Present",
+      technologies: ["TensorFlow", "Computer Vision", "Google MediaPipe API", "CI/CD", "Python"],
       status: "In Progress",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=250&fit=crop",
-      fullDescription: "A mobile-first task management application that helps users organize their daily activities, set priorities, and track progress. Built with React Native for cross-platform compatibility.",
+      image: "/src/components/imgs/neuro.png",
+      fullDescription: "Developing an AI-based facial recognition system using unsupervised learning to detect facial droop in stroke and traumatic brain injury patients and track recovery process over time. Training a TensorFlow-backed model with the Google MediaPipe API.",
       features: [
-        "Create and organize tasks with categories",
-        "Set due dates and priority levels",
-        "Progress tracking and analytics",
-        "Offline functionality with sync"
+        "AI-based facial recognition system for stroke patients",
+        "Unsupervised learning for facial droop detection",
+        "Recovery process tracking over time",
+        "TensorFlow model with Google MediaPipe API integration"
       ],
       challenges: [
-        "Implementing offline-first architecture",
-        "Optimizing performance for older devices",
-        "Creating intuitive gesture-based interactions"
+        "Training model to correctly assess facial droop on 2,000+ photos",
+        "Emphasizing scalability and efficiency",
+        "Creating CI/CD pipelines for deployment and system monitoring"
       ],
       githubUrl: "https://github.com/yourusername/taskapp"
     },
@@ -54,7 +54,7 @@ const ProjectsSection = () => {
       description: "Undergraduate Research; Winter 2025 - Summer 2025",
       technologies: ["Python", "Firmware", "Biophotovalic Cells"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=250&fit=crop",
+      image: "/src/components/imgs/apl.png",
       fullDescription: "A comprehensive weather dashboard that aggregates data from multiple APIs to provide detailed weather information, forecasts, and historical data visualization.",
       features: [
         "Real-time weather data from multiple sources",
@@ -74,7 +74,7 @@ const ProjectsSection = () => {
       description: "Robotcs Capstone; Spring 2025",
       technologies: ["ROS2", "Python", "Remote Sensing"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
+      image: "/src/components/imgs/bighero.png",
       fullDescription: "An analytics platform that provides insights into social media performance across multiple platforms with interactive visualizations and automated reporting.",
       features: [
         "Multi-platform data integration",
@@ -93,7 +93,7 @@ const ProjectsSection = () => {
       description: "Software Engineering Internship; Summer 2024",
       technologies: ["Python", "REST APIs", "GPUs", "Docker"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop",
+      image: "/src/components/imgs/trew.png",
       fullDescription: "A comprehensive learning management system designed for educational institutions to manage courses, students, and assessments online.",
       features: [
         "Course creation and management",
@@ -112,7 +112,7 @@ const ProjectsSection = () => {
       description: "Paired with Senior Microsoft Engineer; Spring 2024",
       technologies: ["Python", "Java"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=250&fit=crop",
+      image: "/src/components/imgs/microsoft.png",
       fullDescription: "A modern, responsive portfolio website showcasing projects and technical blog posts with optimized performance and SEO.",
       features: [
         "Responsive design with Tailwind CSS",
@@ -132,7 +132,7 @@ const ProjectsSection = () => {
       description: "AI/ML Scout; 2023 - 2024",
       technologies: ["Python", "AI/ML", "Finance", "Data Analysis"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=400&h=250&fit=crop",
+      image: "/src/components/imgs/oceans.png",
       fullDescription: "A robust inventory management system for small to medium businesses to track products, manage suppliers, and optimize stock levels.",
       features: [
         "Real-time inventory tracking",
@@ -148,21 +148,21 @@ const ProjectsSection = () => {
     },
     {
       title: "Applied Physics Laboratory",
-      description: "Student Researcher; Summer 2023",
-      technologies: ["Python", "Pandas", "Computer Vision", "Autonomous Navigation", "Sensors"],
+      description: "Student Researcher; Ocean Engineering Department -- June 2023 – September 2023",
+      technologies: ["Python", "Computer Vision", "Autonomous Navigation", "Sensors", "MATLAB"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=400&h=250&fit=crop",
-      fullDescription: "A real-time chat application with support for group conversations, file sharing, and message encryption.",
+      image: "/src/components/imgs/apl.png",
+      fullDescription: "Modeled a real-time navigation system for autonomous vehicles used to deploy and retrieve oceanographic sensors using computer vision with Python and Linux based scripts. Collected thousands of acoustic and visual samples of underwater methane plumes in the Puget Sound.",
       features: [
-        "Real-time messaging with Socket.io",
-        "Group chat functionality",
-        "File and image sharing",
-        "Message encryption and security"
+        "Real-time navigation system for autonomous vehicles",
+        "Computer vision for oceanographic sensor identification",
+        "Acoustic and visual sample collection",
+        "Power spectral density analysis in MATLAB"
       ],
       challenges: [
-        "Implementing end-to-end encryption",
-        "Optimizing real-time performance",
-        "Managing connection stability"
+        "Achieving 91% accuracy in identifying microFloat sensors in water",
+        "Processing thousands of underwater methane plume samples",
+        "Estimating release intensity using power spectra density graphs"
       ]
     },
     {
@@ -170,7 +170,7 @@ const ProjectsSection = () => {
       description: "Undergraduate Research Assistant; 2022-2023",
       technologies: ["Python", "Video/Audio Processing", "Power Spectral Density (PSD) Analysis"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
+      image: "/src/components/imgs/odl.png",
       fullDescription: "A powerful data visualization tool that allows users to upload datasets and create interactive charts and dashboards without coding.",
       features: [
         "Drag-and-drop data upload",
@@ -186,21 +186,21 @@ const ProjectsSection = () => {
     },
     {
       title: "J.P. Morgan Chase",
-      description: "Investment Banking Summer Analyst Intern; Summer 2022",
+      description: "Investment Banking Summer Analyst Intern; Leveraged Finance Group -- June 2022 – August 2022",
       technologies: ["SQL", "Finance", "Data Visualization"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=250&fit=crop",
-      fullDescription: "A scalable API gateway service for managing microservices architecture with load balancing, authentication, and monitoring capabilities.",
+      image: "/src/components/imgs/jpmc.png",
+      fullDescription: "Constructed a credit pricing database to generate transaction comps for new deals and streamline market data queries by examining and manually tagging 900+ internal transactions. Conducted financial statement analysis and market research to support credit evaluations for pitch books.",
       features: [
-        "Request routing and load balancing",
-        "Authentication and authorization",
-        "Rate limiting and throttling",
-        "API monitoring and analytics"
+        "Credit pricing database construction",
+        "Transaction comparison generation for new deals",
+        "Financial statement analysis",
+        "Market research for credit evaluations"
       ],
       challenges: [
-        "Implementing efficient load balancing",
-        "Managing service discovery",
-        "Creating comprehensive monitoring system"
+        "Manually tagging 900+ internal transactions",
+        "Streamlining market data queries",
+        "Supporting pitch book development with accurate data"
       ]
     },
     {
@@ -208,7 +208,7 @@ const ProjectsSection = () => {
       description: "AI Exercise Feedback -- Winter 2022 to Spring 2022",
       technologies: ["Python", "TensorFlow", "APIs"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400&h=250&fit=crop",
+      image: "/src/components/imgs/google.jpg",
       fullDescription: "An automated machine learning pipeline that streamlines the process of data preprocessing, model training, and deployment.",
       features: [
         "Automated data preprocessing",
@@ -227,7 +227,7 @@ const ProjectsSection = () => {
       description: "Beaverworks Summer Institute (MIT BWSI); Summer 2021",
       technologies: ["Remote Sensing", "Radar Image Processing", "Python", "Automation"],
       status: "Completed",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=400&h=250&fit=crop",
+      image: "/src/components/imgs/mit.png",
       fullDescription: "A secure, transparent voting system built on blockchain technology to ensure election integrity and voter privacy.",
       features: [
         "Blockchain-based vote recording",
@@ -259,12 +259,11 @@ const ProjectsSection = () => {
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Projects & Journey</h2>
         
         <div className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-800 mb-4">My Learning Journey</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">My Path</h3>
           <p className="text-gray-700 leading-relaxed">
-            My computer science journey began with curiosity about how software works. 
-            Through coursework and personal projects, I've developed skills in various 
-            programming languages and frameworks. Each project has taught me something 
-            new and challenged me to grow as a developer.
+            Here are some of my projects from the past few years. I've using computer science in a variety of fields,
+            from robotics to finance to healthcare and environmental science. I gained valuable experience as a backend 
+            and now AI/ML engineer and as a student as we experimented with novel technology.  
           </p>
         </div>
         

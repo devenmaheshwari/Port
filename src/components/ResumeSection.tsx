@@ -26,7 +26,7 @@ const ResumeSection = () => {
                 <p className="text-gray-600">Rodeo</p>
                 <p className="text-sm text-gray-500">June 2025 -- Present</p>
                 <ul className="text-sm text-gray-600 mt-1 list-disc list-inside">
-                  Building Rodeo, an AI assistant able to manage your social calendar
+                  Building Rodeo, an AI assistant able to manage your social life
                 </ul>
               </div>
             </div>
