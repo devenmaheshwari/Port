@@ -17,17 +17,17 @@ const ProjectsSection = () => {
       features: [
         "Calendar analysis and user intention classification",
         "Retrieval augmented generation for personalized recommendations",
-        "AI agents development with Vercel backend",
-        "Advanced LLM infrastructure including tokenization and context management",
-        "Model context protocol (MCP) implementation"
+        "AI agents development with Vercel backend. Model context protocol (MCP) implementation for accurate tool calling",
+        "Advanced LLM infrastructure including tokenization optimization and context management",
+        "Product design and iteration to solidify a go-to-market strategy"
       ],
       challenges: [
-        "Achieving less than 10% error rate in recommendations",
-        "Diagnosing model issues using unit testing and log tracing",
-        "Streamlining deployment workflows for user feedback"
+        "Achieving less than 10% error rate in AI tool failiures",
+        "Diagnosing model issues using unit testing and log tracing with Adaline and Heroku",
+        "Streamlining deployment workflows for user feedback and model iteration"
       ],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/yourusername/ecommerce"
+      liveUrl: "https://rodeorodeorodeo.com/",
+      githubUrl: "https://github.com/LetsRodeo"
     },
     {
       title: "Neurophys",
@@ -35,39 +35,38 @@ const ProjectsSection = () => {
       technologies: ["TensorFlow", "Computer Vision", "Google MediaPipe API", "CI/CD", "Python"],
       status: "In Progress",
       image: "/src/components/imgs/neuro.png",
-      fullDescription: "Developing an AI-based facial recognition system using unsupervised learning to detect facial droop in stroke and traumatic brain injury patients and track recovery process over time. Training a TensorFlow-backed model with the Google MediaPipe API.",
+      fullDescription: "Developing an AI-based neurological therapist for stroke and traumatic brain injury patients. Made for patients with little access to traditional physical therapy. Teamed up with UW Medical specialists and engineers in the Pacific NorthWest",
       features: [
-        "AI-based facial recognition system for stroke patients",
-        "Unsupervised learning for facial droop detection",
-        "Recovery process tracking over time",
-        "TensorFlow model with Google MediaPipe API integration"
+        "AI-based neurological therapist for those living with neurological conditions",
+        "Unsupervised learning for facial droop detection and live exercise feedback",
+        "Recovery process tracking over time with k-means clustering",
+        "Won the Best Digital Health Idea at the Holloman Health Innovation Competition in Seattle. $5000 award"
       ],
       challenges: [
-        "Training model to correctly assess facial droop on 2,000+ photos",
+        "Training model to correctly assess facial droop on 4,000+ photos",
         "Emphasizing scalability and efficiency",
         "Creating CI/CD pipelines for deployment and system monitoring"
       ],
-      githubUrl: "https://github.com/yourusername/taskapp"
+      githubUrl: "https://github.com/Neurophys-Co",
+      liveUrl: "https://neurophys.co/"
     },
     {
       title: "Computer Science 4 Environment Lab",
       description: "Undergraduate Research; Winter 2025 - Summer 2025",
       technologies: ["Python", "Firmware", "Biophotovalic Cells"],
       status: "Completed",
-      image: "/src/components/imgs/apl.png",
-      fullDescription: "A comprehensive weather dashboard that aggregates data from multiple APIs to provide detailed weather information, forecasts, and historical data visualization.",
+      image: "/src/components/imgs/cse4env.png",
+      fullDescription: "Constructing a self-powered and biodegradable soil sensor for farmers to maximize yield.",
       features: [
-        "Real-time weather data from multiple sources",
-        "Interactive charts and graphs",
-        "Location-based weather alerts",
-        "Historical weather data analysis"
+        "Leverages existing nitrogen and phosphorus reactinos in soil to store power",
+        "Uses backscattering to send signals about soil health to a server",
+        "Involved research in the bio-energy space as well as experimentation on optimal chemical concentrations",
       ],
       challenges: [
-        "Handling multiple API rate limits",
-        "Creating responsive data visualizations",
-        "Implementing efficient data caching"
+        "Designing a small enough sensing system to be biodegradable",
+        "Testing in a variety of concentrations from saturation to fertilizer levels",
       ],
-      liveUrl: "https://weather-dashboard.example.com"
+      liveUrl: "https://cs4env.uw.edu/"
     },
     {
       title: "Big Hero 7: A Physical Therapy Stretch Robot",
@@ -75,37 +74,39 @@ const ProjectsSection = () => {
       technologies: ["ROS2", "Python", "Remote Sensing"],
       status: "Completed",
       image: "/src/components/imgs/bighero.png",
-      fullDescription: "An analytics platform that provides insights into social media performance across multiple platforms with interactive visualizations and automated reporting.",
+      fullDescription: "As a senior thesis, we altered the Hello Robot Stretch Mobile Manipulator to act as a physical therapy manager for patients with limited mobility",
       features: [
-        "Multi-platform data integration",
-        "Interactive data visualizations",
-        "Automated report generation",
-        "Real-time monitoring dashboard"
+        "Multi-sensor system including sonar, visual, pressure, and joint angle sensors",
+        "Autonomous movement and localization around a patient to find optimal angles to practice",
+        "Live feedback and improvement over time metrics",
+        "Real-time monitoring dashboard and interface for a user to change controls manually"
       ],
       challenges: [
-        "Integrating multiple social media APIs",
-        "Creating meaningful data visualizations",
-        "Optimizing real-time data processing"
-      ]
+        "Integrating an external sensor onto a mobile manipulator",
+        "Understanding the limitations of perception and vision as well as navigation range for a robot",
+        "Creating a user interface for a physical therapist to control the robot"
+      ],
+      githubUrl: "https://github.com/devenmaheshwari/bighero7",
+      liveUrl: "https://sites.google.com/view/big-hero-7-group-1/home?authuser=1"
     },
     {
       title: "Trew Media",
       description: "Software Engineering Internship; Summer 2024",
-      technologies: ["Python", "REST APIs", "GPUs", "Docker"],
+      technologies: ["Python", "REST APIs", "NVIDIA GPU/SDK", "Docker"],
       status: "Completed",
       image: "/src/components/imgs/trew.png",
-      fullDescription: "A comprehensive learning management system designed for educational institutions to manage courses, students, and assessments online.",
+      fullDescription: "Creating an AI algorithm for product identification and analysis for virality, then upscaling these brands online",
       features: [
-        "Course creation and management",
-        "Student enrollment and progress tracking",
-        "Interactive quizzes and assignments",
-        "Grade book and reporting system"
+        "OCR analysis of TikTok videos and Instagram reels for product identification",
+        "Scaling of under utilized products",
+        "Utlilizing the NVIDIA SDK Manager for unique development",
+        "Grading video virality and identifying audience and fit using AI"
       ],
       challenges: [
-        "Designing scalable database architecture",
-        "Implementing real-time collaboration features",
-        "Creating accessible user interfaces"
-      ]
+        "Configuring an NVIDIA Jetson Orin Chip for ML optimization",
+        "Utilizing TikTok and social media APIs for determining video virality",
+      ],
+      liveUrl: "https://trewmedia.xyz/",
     },
     {
       title: "Microsoft University Shadowship",
@@ -113,19 +114,14 @@ const ProjectsSection = () => {
       technologies: ["Python", "Java"],
       status: "Completed",
       image: "/src/components/imgs/microsoft.png",
-      fullDescription: "A modern, responsive portfolio website showcasing projects and technical blog posts with optimized performance and SEO.",
+      fullDescription: "Tracked the daily life of a senior Microsoft engineer to understand the day-to-day tasks and challenges in SWE",
       features: [
-        "Responsive design with Tailwind CSS",
-        "Static site generation with Next.js",
-        "Blog with MDX support",
-        "Contact form integration"
+        "Daily tasks and challenges of a senior Microsoft engineer",
+        "Selected through the Allen School of Computer Science and Engineering"
       ],
       challenges: [
-        "Optimizing for performance and SEO",
-        "Creating engaging animations",
-        "Implementing dark mode toggle"
+        "Understanding what working on a global scale tech company involves"
       ],
-      liveUrl: "https://yourportfolio.com"
     },
     {
       title: "Oceans Ventures",
@@ -133,18 +129,17 @@ const ProjectsSection = () => {
       technologies: ["Python", "AI/ML", "Finance", "Data Analysis"],
       status: "Completed",
       image: "/src/components/imgs/oceans.png",
-      fullDescription: "A robust inventory management system for small to medium businesses to track products, manage suppliers, and optimize stock levels.",
+      fullDescription: "Oceans is a VC focused on early stage AI/ML companies. As a scout, I sourced companies all over the Pacific NorthWest and met with founders, funds, and investors to find out where this work is growing the most",
       features: [
-        "Real-time inventory tracking",
-        "Supplier management",
-        "Automated reorder notifications",
-        "Sales and inventory reports"
+        "Founding and sourcing companies and engineers in the Pacific NorthWest",
+        "Meeting with founders, funds, and investors to talk about how the Seattle entreprenurial atmosphere is growing",
+        "Establishing Oceans presence in the PNW",
+        "Assisting in closing the second fund for Oceans estimated at $26 million"
       ],
       challenges: [
-        "Implementing real-time updates across users",
-        "Optimizing for high-volume transactions",
-        "Creating intuitive reporting interfaces"
-      ]
+        "Analyzing companies and their growth potential based on AI/ML trends and market size",
+      ],
+      liveUrl: "https://oceans.ventures/"
     },
     {
       title: "Applied Physics Laboratory",
@@ -152,18 +147,18 @@ const ProjectsSection = () => {
       technologies: ["Python", "Computer Vision", "Autonomous Navigation", "Sensors", "MATLAB"],
       status: "Completed",
       image: "/src/components/imgs/apl.png",
-      fullDescription: "Modeled a real-time navigation system for autonomous vehicles used to deploy and retrieve oceanographic sensors using computer vision with Python and Linux based scripts. Collected thousands of acoustic and visual samples of underwater methane plumes in the Puget Sound.",
+      fullDescription: "Modeled a real-time navigation system for autonomous vehicles used to deploy and retrieve oceanographic sensors using computer vision with Python and Linux based scripts.",
       features: [
         "Real-time navigation system for autonomous vehicles",
-        "Computer vision for oceanographic sensor identification",
-        "Acoustic and visual sample collection",
-        "Power spectral density analysis in MATLAB"
+        "Achieving 91% accuracy in identifying microFloat sensors in water",
+        "Collected thousands of acoustic and visual samples of floats in Lake Washington",
+        "Designed an efficient database for storing and analyzing oceanographic and navigation input"
       ],
       challenges: [
-        "Achieving 91% accuracy in identifying microFloat sensors in water",
-        "Processing thousands of underwater methane plume samples",
-        "Estimating release intensity using power spectra density graphs"
-      ]
+        "Computer vision for oceanographic microFloat sensor identification",
+        "Processing thousands of visual samples of floats",
+      ],
+      liveUrl: "https://ieeexplore.ieee.org/document/10754147"
     },
     {
       title: "Ocean Data Lab @ UW Oceanography",
@@ -171,18 +166,20 @@ const ProjectsSection = () => {
       technologies: ["Python", "Video/Audio Processing", "Power Spectral Density (PSD) Analysis"],
       status: "Completed",
       image: "/src/components/imgs/odl.png",
-      fullDescription: "A powerful data visualization tool that allows users to upload datasets and create interactive charts and dashboards without coding.",
+      fullDescription: "Conducted Data Analysis for the Ocean Data Lab at UW under Professsor Shima Abadi. Projects were focused on determining the source of methane plumes scattered throughout the Puget Sound and advancing distributed acoustic sensing technology.",
       features: [
-        "Drag-and-drop data upload",
-        "Interactive chart generation",
-        "Statistical analysis tools",
-        "Export and sharing capabilities"
+        "Methane Bubble Sound for identifying methane release from underwater methane plumes",
+        "Distributed Acoustic Sensing for sending oceanographic signals using backscattering",
+        "Field research in the Puget Sound aboard the R/V Rachel Carson",
+        "Integration with sonar, hydrophone, visual, concentation, temperature, depth, and biological sensors"
       ],
       challenges: [
-        "Handling large datasets efficiently",
-        "Creating intuitive data manipulation interface",
-        "Implementing advanced statistical functions"
-      ]
+        "Handling tool failiures on board the R/V Rachel Carson for data collection",
+        "Gaining knowledge of basic oceanography concepts and how they apply in real life",
+        "Reviewing the work of 30+ students for accurate Matlab use and graphing tecnniques"
+      ],
+      liveUrl: "https://sites.uw.edu/abadi/",
+      githubUrl: "https://github.com/Ocean-Data-Lab"
     },
     {
       title: "J.P. Morgan Chase",
@@ -194,13 +191,11 @@ const ProjectsSection = () => {
       features: [
         "Credit pricing database construction",
         "Transaction comparison generation for new deals",
-        "Financial statement analysis",
-        "Market research for credit evaluations"
+        "Financial statement analysis and market research for credit evaluation",
       ],
       challenges: [
         "Manually tagging 900+ internal transactions",
-        "Streamlining market data queries",
-        "Supporting pitch book development with accurate data"
+        "Gaining a background in leveraged finance",
       ]
     },
     {
@@ -209,18 +204,17 @@ const ProjectsSection = () => {
       technologies: ["Python", "TensorFlow", "APIs"],
       status: "Completed",
       image: "/src/components/imgs/google.jpg",
-      fullDescription: "An automated machine learning pipeline that streamlines the process of data preprocessing, model training, and deployment.",
+      fullDescription: "Under the supervision of a senior Google engineer, led a team of three in creating an AI and computer vision based feedback system to promote exercise efficacy and mitigate injuries",
       features: [
-        "Automated data preprocessing",
-        "Model training and validation",
-        "Hyperparameter optimization",
-        "Model deployment automation"
+        "Binary system for evaluating good or bad form for push-ups, squats, and sit ups",
+        "Airduino and Vex robotics and navigation",
+        "Flask based UI and integration with REST APIs for model predictions",
       ],
       challenges: [
-        "Optimizing training performance",
-        "Implementing model versioning",
-        "Creating automated testing pipelines"
-      ]
+        "Overseeing deadlines and managing this team of students asynchronously",
+        "Access to limited hardware but creating a web app to deploy app"
+      ],
+      githubUrl: "https://github.com/devenmaheshwari/Stuyvensant"
     },
     {
       title: "MIT Lincoln Laboratory",
@@ -228,18 +222,19 @@ const ProjectsSection = () => {
       technologies: ["Remote Sensing", "Radar Image Processing", "Python", "Automation"],
       status: "Completed",
       image: "/src/components/imgs/mit.png",
-      fullDescription: "A secure, transparent voting system built on blockchain technology to ensure election integrity and voter privacy.",
+      fullDescription: "Took a course on Unmanned Aerial System (UAS) SAR (Synthetic Aperture Radar) and worked on a project to develop a SAR system for a radar emulator. Created an efficient imaging system",
       features: [
-        "Blockchain-based vote recording",
-        "Smart contract validation",
-        "Anonymous voting mechanism",
-        "Real-time result tracking"
+        "Real-time TCP connection for data transfer",
+        "Enhanced imaging system using data interpolation and compression for faster image generation",
+        "Image classification and object detection using Yolo",
+        "Won 3rd place for our combined radar communication process and image analysis"
       ],
       challenges: [
-        "Ensuring voter privacy and security",
-        "Optimizing gas costs for transactions",
-        "Creating user-friendly Web3 interface"
-      ]
+        "Collaborating on a shared codebase asynchronously",
+        "Understanding the physics of radar systems and their different application in the world",
+      ],
+      githubUrl: "https://github.com/",
+      liveUrl: "https://bwsi.mit.edu/bwsi-course-listing/uas-sar/"
     }
   ];
 
