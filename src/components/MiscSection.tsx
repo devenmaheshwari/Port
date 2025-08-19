@@ -88,15 +88,15 @@ const MiscSection = () => {
         <div className="pt-6 border-t border-cream-200">
           <h3 className="text-xl font-semibold text-gray-800 mb-6">Get In Touch</h3>
           <div className="flex flex-wrap gap-4">
-            <a href="mailto:your.email@example.com" 
+            <a href="mailto:devenm@uw.edu" 
                className="px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-200 transform hover:scale-105 shadow-md">
               Email Me
             </a>
-            <a href="https://linkedin.com/in/yourprofile" 
+            <a href="https://www.linkedin.com/in/deven-maheshwari/" 
                className="px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-lg hover:from-blue-600 hover:to-blue-700 transition-all duration-200 transform hover:scale-105 shadow-md">
               LinkedIn
             </a>
-            <a href="https://github.com/yourusername" 
+            <a href="https://github.com/devenmaheshwari" 
                className="px-6 py-3 bg-gradient-to-r from-gray-800 to-gray-900 text-white rounded-lg hover:from-gray-900 hover:to-black transition-all duration-200 transform hover:scale-105 shadow-md">
               GitHub
             </a>
