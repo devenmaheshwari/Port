@@ -26,7 +26,7 @@ const AboutSection = () => {
           <div className="flex justify-center">
             <div className="w-48 h-48 bg-cream-200 rounded-full overflow-hidden">
               <img
-                src="/src/components/imgs/pro.JPG"
+                src="/src/components/imgs/pro.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
